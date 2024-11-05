@@ -25,7 +25,7 @@ export default function HomePage() {
           priority 
         />
       </div>
-      <span class="inline-block animate-bounce rounded-full p-4 bg-black text-white text-sm relative z-50 -top-32 left-1/2 -translate-x-1/2">
+      <span class="inline-block animate-bounce rounded-full p-4 bg-black text-white text-sm relative z-50 -top-32 sm:left-1/2  left-[40%]">
         <svg
           class="w-6 h-6 mx-auto"
           xmlns="http://www.w3.org/2000/svg"

@@ -16,8 +16,8 @@ export default function Nav() {
 
   return (
     <div className="relative w-full">
-      <nav className="flex w-full sm:justify-between flex-wrap bg-black gap-10 p-2 px-28 justify-center  items-center font-medium rounded-b-full rounded-t-md">
-        <h1 className="sm:text-3xl text-2xl sm:p-2 font-bold text-white ">Perfect Scape</h1>
+      <nav className="flex w-full sm:justify-between flex-wrap bg-black gap-10 p-2 sm:px-28 px-10 justify-center  items-center font-medium sm:rounded-b-full sm:rounded-t-md">
+        <h1 className="sm:text-3xl text-[25px] sm:p-2 font-bold text-white ">Perfect Scape</h1>
         <div onClick={handellNav} className="cursor-pointer hover:animate-pulse">
           <div className="w-8 h-1 bg-white rounded-md mb-1"></div>
           <div className="w-8 h-1 bg-white rounded-md mb-1"></div>
